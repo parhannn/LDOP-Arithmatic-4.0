@@ -4,8 +4,13 @@
     <!--Head-->
     <head>
         <title>Curriculum Vitae</title>
-        <!--<link rel = "stylesheet" href = "assets/style.css">-->
+        
+        <!--styling-->
         <style>
+            header {
+                display: inline;
+            }
+
             nav li {
                 font-family: sans-serif;
                 display: inline;
@@ -22,15 +27,30 @@
 
             nav a {
                 font-size: 18px;
-                font-weight: 400;
+                font-weight: bold;
                 text-decoration: none;
                 color: black;
             }
 
             body {
-                font-family: sans-serif;
+                font-family: 'Times New Roman', Times, serif;
                 margin: 0;
                 padding: 0;
+            }
+
+            footer {
+                padding: 20px;
+                padding-top: 1px;
+                color: white;
+                background-color: black;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .fixed {
+                position: fixed;
+                top: 0;
+                left: 0;
             }
 
             .jumbotron {
@@ -42,7 +62,7 @@
                 text-align: center;
                 color: white;
             }
-
+            
             .box-li-nav {
                 background-color: white;
                 padding: 7px;
@@ -68,6 +88,7 @@
                 margin-left: 49px;
                 margin-right: 960px;
                 border-style: groove;
+                position: static;
             }
 
             .personal-data-box {
@@ -79,6 +100,7 @@
                 margin-top: -161px;
                 margin-right: 500px;
                 border-style: groove;
+                position: static;
             }
 
             .about-me {
@@ -88,6 +110,7 @@
                 margin-left: 49px;
                 margin-right: 500px;
                 border-style: groove;
+                position: static;
             }
 
             .experience {
@@ -98,6 +121,7 @@
                 margin-left: 49px;
                 margin-right: 1100px;
                 border-style: groove;
+                position: static;
             }
 
             .education {
@@ -108,22 +132,27 @@
                 margin-left: 250px;
                 margin-right: 500px;
                 border-style: groove;
+                position: static;
             }
 
             .contact-me {
                 box-shadow:grey;
                 border-radius: 5px;
                 padding: 20px;
+                padding-bottom: 19px;
                 margin-top: 0px;
                 margin-left: 250px;
                 margin-right: 500px;
+                margin-bottom: 20px;
                 border-style: groove;
+                position: static;
             }
         </style>
     </head>
 
     <!--Body-->
     <body>
+
         <!--Header-->
         <header>
             <div class = "jumbotron">
@@ -136,6 +165,7 @@
                     <li class = "box-li-nav"><a href = "#pengalaman">Experience</a></li>
                     <li class = "box-li-nav"><a href = "#pendidikan">Education</a></li>
                     <li class = "box-li-nav"><a href = "#kontak">Contact</a></li>
+                    <li class = "box-li-nav"><a href = "#media-sosial">Social Media</a></li>
                 </ul>
             </nav>
         </header>
@@ -144,7 +174,7 @@
         <main>
             <div id = "konten">
                 <section>
-                    <img src = "assets/image/foto-profil.JPG" class = "personal-profile-photo">
+                    <img src = "assets/image/foto-profil.JPG" class = "personal-profile-photo" alt = "foto-profil">
                 </section>
                 <article id = "biodata" class = "personal-data-box">
                     <section>
@@ -156,16 +186,16 @@
                 <article id = "tentang" class = "about-me">
                     <section>
                         <h4>ABOUT ME</h4>
-                        <p>Generally, I'm an engineer student from Sumateran Institute of Technology. Informatics Engineering is my study program. Currently, i'm in third semester. I'm interested with Website Development, so someday i wanna be a professional Web Developer.</p>
+                        <p>Generally, I'm an engineer student from Sumateran Institute of Technology. Informatics Engineering is my study program. Currently, i'm in third semester. I'm interested with Website Development, so someday i wanna be a professional Website Developer.</p>
                     </section>
                 </article>
 
                 <article id = "pengalaman" class = "experience">
                     <section>
-                        <h4>EXPERIENCE</h4>
+                        <h4 style = "text-align: center;">EXPERIENCE</h4>
                         <ul>
-                            <li>Web Basic Programming Online Class (Dicoding Academy 2022)</li>
-                            <li>Programming Algorithm Lab Assistant (ITERA 2022)</li>
+                            <li>Web Basic Programming Online Class <span style = "font-style: italic;">(Dicoding Academy 2022)</span></li>
+                            <li>Programming Algorithm Lab Assistant <span style = "font-style: italic;">(ITERA 2022)</span></li>
                         </ul>
                     </section>
                 </article>
@@ -174,8 +204,8 @@
                     <section>
                         <h4>EDUCATION</h4>
                         <ul>
-                            <li>Informatics Engineering (ITERA)| 2021 - present</li>
-                            <li>Math & Science (SMAN 1 Pringsewu)| 2019 - 2021</li>
+                            <li><span style = "font-weight: bold;">Informatics Engineering </span> (ITERA)| 2021 - present</li>
+                            <li><span style = "font-weight: bold;">Math & Science </span> (SMAN 1 Pringsewu)| 2019 - 2021</li>
                         </ul>
                     </section>
                 </article>
@@ -184,13 +214,21 @@
                     <section>
                         <h4>CONTACT ME</h4>
                         <ul>
-                            <li>WhatsApp - 081279819348</li>
-                            <li>Instagram - prhnnn_ak</li>
+                            <li><span style = "font-style:oblique">WhatsApp</span> - 081279819348</li>
+                            <li><span style = "font-style:oblique">Instagram</span> - prhnnn_ak</li>
                         </ul>
                     </section>
                 </article>
             </div>
         </main>
+
+        <!--Footer-->
+        <footer>
+            <h3 id = "media-sosial">Social Media</h3>
+            <a href="https://www.instagram.com/prhnnn_ak/?hl=id"><img src = "assets/image/Logo-Instagram.png" style = "width: 40px;"></a>
+            <a href="https://github.com/parhannn"><img src = "assets/image/logo-github.png" style = "width: 40px; border-radius: 21px; margin-left: 10px;"></a>
+            <a href="https://www.linkedin.com/in/farhan-apri-8ba3a01a4/"><img src = "assets/image/linkedin-logo.png" style = "width: 40px; margin-left: 10px;"></a>
+            <a href="https://replit.com/@FarHand"><img src = "assets/image/replit-logo-png-transparent.png" style = "width: 110px; margin-left: 10px;"></a>
+        </footer>
     </body>
 </html>
-
