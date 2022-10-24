@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <!--Head-->
+    <head>
+        <title>Curriculum Vitae</title>
+        <!--<link rel = "stylesheet" href = "assets/style.css">-->
+        <style>
+            nav li {
+                font-family: sans-serif;
+                display: inline;
+                list-style-type: none;
+                margin-right: 20px;
+            }
+
+            nav {
+                background-color: grey;
+                padding: 5px;
+                position: sticky;
+                top: 0;
+            }
+
+            nav a {
+                font-size: 18px;
+                font-weight: 400;
+                text-decoration: none;
+                color: black;
+            }
+
+            body {
+                font-family: sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            .jumbotron {
+                font-size: 20px;
+                font-family: sans-serif;
+                font-weight: bold;
+                padding: 10px;
+                background-color: black;
+                text-align: center;
+                color: white;
+            }
+
+            .box-li-nav {
+                background-color: white;
+                padding: 7px;
+                color: black;
+                border-radius: 5px;
+                transition: box-shadow .25s ease-in;
+            }
+
+            .box-li-nav:hover {
+                box-shadow:
+                rgba(255, 255, 255, 0.5) 3px 1px,
+                rgba(255, 255, 255, 0.4) 8px 4px,
+                rgba(255, 255, 255, 0.3) 13px 7px;
+            }
+
+            .personal-profile-photo {
+                width: 100px;
+                box-shadow:grey;
+                border-radius: 5px;
+                padding: 20px;
+                padding-right: 100px;
+                margin-top: 20px;
+                margin-left: 49px;
+                margin-right: 960px;
+                border-style: groove;
+            }
+
+            .personal-data-box {
+                box-shadow:grey;
+                border-radius: 5px;
+                padding: 20px;
+                padding-bottom: 29px;
+                margin-left: 274px;
+                margin-top: -161px;
+                margin-right: 500px;
+                border-style: groove;
+            }
+
+            .about-me {
+                box-shadow:grey;
+                border-radius: 5px;
+                padding: 20px;
+                margin-left: 49px;
+                margin-right: 500px;
+                border-style: groove;
+            }
+
+            .experience {
+                box-shadow:grey;
+                border-radius: 5px;
+                padding: 20px;
+                padding-bottom: 53px;
+                margin-left: 49px;
+                margin-right: 1100px;
+                border-style: groove;
+            }
+
+            .education {
+                box-shadow:grey;
+                border-radius: 5px;
+                padding: 20px;
+                margin-top: -317px;
+                margin-left: 250px;
+                margin-right: 500px;
+                border-style: groove;
+            }
+
+            .contact-me {
+                box-shadow:grey;
+                border-radius: 5px;
+                padding: 20px;
+                margin-top: 0px;
+                margin-left: 250px;
+                margin-right: 500px;
+                border-style: groove;
+            }
+        </style>
+    </head>
+
+    <!--Body-->
+    <body>
+        <!--Header-->
+        <header>
+            <div class = "jumbotron">
+                <h1>Curriculum Vitae</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class = "box-li-nav"><a href = "#biodata">Personal Data</a></li>
+                    <li class = "box-li-nav"><a href = "#tentang">About Me</a></li>
+                    <li class = "box-li-nav"><a href = "#pengalaman">Experience</a></li>
+                    <li class = "box-li-nav"><a href = "#pendidikan">Education</a></li>
+                    <li class = "box-li-nav"><a href = "#kontak">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Main-->
+        <main>
+            <div id = "konten">
+                <section>
+                    <img src = "assets/image/foto-profil.JPG" class = "personal-profile-photo">
+                </section>
+                <article id = "biodata" class = "personal-data-box">
+                    <section>
+                        <h3>FARHAN APRI KESUMA</h3>
+                        <h4>Web Developer</h4>
+                    </section>
+                </article>
+
+                <article id = "tentang" class = "about-me">
+                    <section>
+                        <h4>ABOUT ME</h4>
+                        <p>Generally, I'm an engineer student from Sumateran Institute of Technology. Informatics Engineering is my study program. Currently, i'm in third semester. I'm interested with Website Development, so someday i wanna be a professional Web Developer.</p>
+                    </section>
+                </article>
+
+                <article id = "pengalaman" class = "experience">
+                    <section>
+                        <h4>EXPERIENCE</h4>
+                        <ul>
+                            <li>Web Basic Programming Online Class (Dicoding Academy 2022)</li>
+                            <li>Programming Algorithm Lab Assistant (ITERA 2022)</li>
+                        </ul>
+                    </section>
+                </article>
+
+                <article id = "pendidikan" class = "education">
+                    <section>
+                        <h4>EDUCATION</h4>
+                        <ul>
+                            <li>Informatics Engineering (ITERA)| 2021 - present</li>
+                            <li>Math & Science (SMAN 1 Pringsewu)| 2019 - 2021</li>
+                        </ul>
+                    </section>
+                </article>
+
+                <article id = "kontak" class = "contact-me">
+                    <section>
+                        <h4>CONTACT ME</h4>
+                        <ul>
+                            <li>WhatsApp - 081279819348</li>
+                            <li>Instagram - prhnnn_ak</li>
+                        </ul>
+                    </section>
+                </article>
+            </div>
+        </main>
+    </body>
+</html>
+
