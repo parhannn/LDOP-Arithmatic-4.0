@@ -5,6 +5,7 @@
 
 * {
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
@@ -54,7 +55,7 @@ footer {
 }
 
 .name-logo {
-    margin-right: 430px;
+    margin-right: 330px;
     color: white;
     font-size: 20px;
 }
@@ -119,6 +120,17 @@ footer {
     margin-left: auto;
     margin-right: auto;
     border-radius: 500px;
+    border: 0.1px solid #099FFF;
+    box-shadow: 0 4px 8px 0 #00ffff, 0 6px 20px 0 rgba(0, 0, 0.19);
+}
+
+.portofolio {
+    width: 50%;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
     border: 0.1px solid #099FFF;
     box-shadow: 0 4px 8px 0 #00ffff, 0 6px 20px 0 rgba(0, 0, 0.19);
 }
