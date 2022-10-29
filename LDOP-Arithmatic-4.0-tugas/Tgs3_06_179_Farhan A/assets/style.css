@@ -54,7 +54,7 @@ footer {
 }
 
 .name-logo {
-    margin-right: 400px;
+    margin-right: 430px;
     color: white;
     font-size: 20px;
 }
@@ -63,8 +63,8 @@ footer {
     background-color: #00ffff;
     border-radius: 10px;
     padding: 5px;
-    border: 0.1px solid #099FFF;
-    box-shadow: 0 2px 4px 0 #00ffff, 0 3px 10px 0 rgba(0, 0, 0.19);
+    border: 0.1px solid #00ffff;
+    box-shadow: 0 2px 4px 0 #099FFF, 0 3px 10px 0 rgba(0, 0, 0.19);
 }
 
 .hover-underline-animation {
