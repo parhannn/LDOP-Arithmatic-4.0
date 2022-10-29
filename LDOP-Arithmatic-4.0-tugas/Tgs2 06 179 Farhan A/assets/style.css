@@ -74,6 +74,7 @@ footer {
 }
 
 .hover-underline-animation:hover:after {
+    background-color: #00ffff;
     transform: scaleX(1);
     transform-origin: bottom left;
 }
